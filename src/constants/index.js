@@ -32,6 +32,9 @@ import {
   python,
   bash,
   SQl,
+  DC,
+  bon,
+  Gil,
 } from "../assets";
 
 export const navLinks = [
@@ -127,7 +130,7 @@ const experiences = [
   {
     title: "Cloud engineer",
     company_name: "Check DC",
-    icon: starbucks,
+    icon: DC,
     iconBg: "#383E56",
     date: "Jan 2019 - Jan 2023",
     points: [
@@ -140,7 +143,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Bon voyage travels",
-    icon: tesla,
+    icon: bon,
     iconBg: "#E6DEDD",
     date: "Jan 2018 - Demcember 2019",
     points: [
@@ -153,7 +156,7 @@ const experiences = [
   {
     title: "Construction scheduler",
     company_name: "Gilbane",
-    icon: shopify,
+    icon: Gil,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [

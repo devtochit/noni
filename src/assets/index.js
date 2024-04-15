@@ -39,8 +39,16 @@ import aws from "./aws.png";
 import python from "./py.webp";
 import bash from "./bash.png";
 import SQl from "./sql.png";
+import bon from "./von2.jpeg";
+import LU from "./LU2.png";
+import DC from "./DC.png";
+import Gil from "./gil.png";
 
 export {
+  bon,
+  LU,
+  DC,
+  Gil,
   python,
   SQl,
   bash,
