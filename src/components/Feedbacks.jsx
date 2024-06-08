@@ -39,11 +39,11 @@ const Feedbacks = () => {
         <div className=" mb-4">
           <p className={styles.sectionSubText}> Education</p>
           <h2 className=" text-xl font-black">
-            Master in computing University of Roehampton <br/>
+            Master in computing University of Roehampton <br />
             London
           </h2>
         </div>
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant()} className="mb-10">
           <p className={styles.sectionSubText}> Certification</p>
           <h2 className={styles.sectionHeadText}>
             {" "}
