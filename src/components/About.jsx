@@ -50,14 +50,15 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="lg:mt-20 mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
         >
-          As a Cloud engineer and consultant, I assist customers who desire to
-          adopt the latest cloud technologies in a sustainable and scalable way.
-          Based on a long hands-on experience gained with customers operating in
-          the Fintech, Insurtech, and Industrial sectors. My primary focus is on
-          listening to understand needs and solve tangible problems.
-          Specializing in Platform Engineering, I propose solutions that provide
-          a solid foundation for a smooth user experience, optimizing the
-          processes and making them more efficient and safe
+          Well-trained IT professional with 3 years of hands-on experience in
+          cloud engineering and a strong background in cybersecurity. Proficient
+          in cloud computing and AWS architecture, with a solid foundation in
+          designing and developing three-tier architectures. I am skilled in
+          various software development tools, scripting languages, and
+          technologies. I quickly adapt to new environments and systems and am
+          known for exceptional teamwork, communication, and collaborative
+          skills. I thrive in dynamic and fast-paced settings, consistently
+          delivering high-quality results.
         </motion.p>
         <img src={Noni} className=" w-full h-[500px]" />
       </div>

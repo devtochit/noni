@@ -45,8 +45,10 @@ import bon from "./von2.jpeg";
 import LU from "./LU2.png";
 import DC from "./DC.png";
 import Gil from "./gil.png";
+import Awsc from "./awsc.jpeg";
 
 export {
+  Awsc,
   bon,
   medium,
   one,
