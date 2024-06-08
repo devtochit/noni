@@ -50,15 +50,14 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="lg:mt-20 mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
         >
-          As a Cloud Native consultant and engineer, I assist customers who
-          desire to adopt the latest cloud technologies in a sustainable and
-          scalable way. Based on a long hands-on experience gained with
-          customers operating in the Fintech, Insurtech, and Industrial sectors.
-          My primary focus is on listening to understand needs and solve
-          tangible problems. Specializing in Platform Engineering, I propose
-          solutions that provide a solid foundation for a smooth user
-          experience, optimizing the processes and making them more efficient
-          and safe
+          As a Cloud engineer and consultant, I assist customers who desire to
+          adopt the latest cloud technologies in a sustainable and scalable way.
+          Based on a long hands-on experience gained with customers operating in
+          the Fintech, Insurtech, and Industrial sectors. My primary focus is on
+          listening to understand needs and solve tangible problems.
+          Specializing in Platform Engineering, I propose solutions that provide
+          a solid foundation for a smooth user experience, optimizing the
+          processes and making them more efficient and safe
         </motion.p>
         <img src={Noni} className=" w-full h-[500px]" />
       </div>
