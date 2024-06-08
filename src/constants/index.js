@@ -35,6 +35,7 @@ import {
   DC,
   bon,
   Gil,
+  one,
 } from "../assets";
 
 export const navLinks = [
@@ -210,26 +211,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Launch EC2 Instance",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AWS Lambda can be used to automate the launch of EC2 instances, showcasing the efficiency of AWS automation.",
     tags: [
       {
-        name: "react",
+        name: "Lambda functions",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "AWS Lambda",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "EC2 services",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: one,
+    source_code_link:
+      "https://github.com/lydiauzoma/cloud-computing-/blob/main/Lambda_function",
+    medium_link:
+      "https://medium.com/@lydiauzoma61/launch-an-ec2-instance-with-lambda-f617ec27962f",
   },
+
   {
     name: "Job IT",
     description:
@@ -250,7 +255,10 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    medium_link:
+      "https://medium.com/@lydiauzoma61/launch-an-ec2-instance-with-lambda-f617ec27962f",
   },
+
   {
     name: "Trip Guide",
     description:
@@ -271,6 +279,8 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    medium_link:
+      "https://medium.com/@lydiauzoma61/launch-an-ec2-instance-with-lambda-f617ec27962f",
   },
 ];
 

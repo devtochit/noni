@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm A Cloud Native, <br className="sm:block hidden" />
-            Cloud developer, Cloud Consultant,
+            Engineer, Consultant,
           </p>
         </div>
       </div>
