@@ -16,7 +16,6 @@ const ProjectCard = ({
   image,
   source_code_link,
   medium_link,
-  
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -56,7 +55,7 @@ const ProjectCard = ({
               <img
                 src={medium}
                 alt="source code"
-                className="w-1/2 h-1/2 object-contain"
+                className=" h-11/12 w-11/12 object-contain"
               />
             </div>
           </div>

@@ -21,6 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import one from "./1.webp";
+import two from "./2.webp";
+import third from "./3.webp";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -48,6 +50,8 @@ export {
   bon,
   medium,
   one,
+  two,
+  third,
   LU,
   DC,
   Gil,

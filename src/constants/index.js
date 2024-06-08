@@ -36,6 +36,8 @@ import {
   bon,
   Gil,
   one,
+  two,
+  third,
 } from "../assets";
 
 export const navLinks = [
@@ -236,51 +238,52 @@ const projects = [
   },
 
   {
-    name: "Job IT",
+    name: "Amazon Rekognition",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "In this article, I’m excited to show you how to build your image label generator using Amazon Rekognition",
     tags: [
       {
-        name: "react",
+        name: "Amazon Rekognition",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "AWS Management Console",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "AWS services",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: two,
+    source_code_link:
+      "https://github.com/lydiauzoma/cloud-computing-/blob/main/demo.py",
     medium_link:
-      "https://medium.com/@lydiauzoma61/launch-an-ec2-instance-with-lambda-f617ec27962f",
+      "https://medium.com/@lydiauzoma61/creating-an-image-labels-generator-with-amazon-rekognition-b15080ef221a",
   },
 
   {
-    name: "Trip Guide",
+    name: "AI Apps Made Easy with AWS",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ever wished you could create an AI app just by describing what you need? Thanks to AWS PartyRock, that’s now possible.",
     tags: [
       {
-        name: "nextjs",
+        name: "AWS PartyRock",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "LLM models",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "AI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: third,
     source_code_link: "https://github.com/",
     medium_link:
-      "https://medium.com/@lydiauzoma61/launch-an-ec2-instance-with-lambda-f617ec27962f",
+      "https://medium.com/@lydiauzoma61/ai-apps-made-easy-with-aws-partyrock-ba6e357cd229",
   },
 ];
 
