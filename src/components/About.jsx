@@ -40,8 +40,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}></p>
+        <h2 className={styles.sectionHeadText}></h2>
       </motion.div>
 
       <div className=" flex  justify-between flex-col gap-10 lg:flex-row-reverse">

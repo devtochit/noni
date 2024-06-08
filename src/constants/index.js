@@ -39,6 +39,8 @@ import {
   two,
   third,
   Awsc,
+  cou,
+  sec,
 } from "../assets";
 
 export const navLinks = [
@@ -62,7 +64,7 @@ const services = [
     icon: assessment,
   },
   {
-    title: "Cloud Adoption and Migration",
+    title: "Techincal writing",
     icon: cloudupload,
   },
   {
@@ -132,16 +134,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Cloud engineer",
+    title: "Cloud Engineer",
     company_name: "Check DC",
     icon: DC,
     iconBg: "#383E56",
     date: "Jan 2019 - Jan 2023",
     points: [
-      "Utilized Terraform and Ansible infrastructure deployment time by 50%.",
-      "Created strategies for disaster management with AWS backup , and AWS Disaster Recovery and CloudEndure to minimise future disruption",
-      "Orchestrated containerized application using kubernetes on AWS EKS (Elastic kubernetes services)and managed container deployment with AWS Fargate improving scalability and resource utilization",
-      "Implemented CI/CD pipelines jekins AWS codepipeline and GitLab CI/CD reducing manual deployment effort by 60%",
+      "Infrastructure Automation: Utilized Terraform and Ansible to reduce infrastructure deployment time by 50%. Disaster Recovery: Created strategies using AWS Backup, AWS Disaster Recovery, and CloudEndure to minimize future disruptions.",
+      "Container Orchestration: Orchestrated containerized applications using Kubernetes on AWS EKS and managed container deployment with AWS Fargate, improving scalability and resource utilization.",
+      "CI/CD Implementation: Implemented CI/CD pipelines with Jenkins, AWS CodePipeline, and GitLab CI/CD, reducing manual deployment efforts by 60%. Monitoring and Resolution: Established centralized monitoring with AWS CloudWatch, Grafana, and Prometheus, reducing mean time to resolution (MTTR) by 50%.",
+      "Serverless Solutions: Designed and implemented serverless solutions using AWS Lambda, API Gateway, and DynamoDB, reducing operational overhead and improving scalability.",
     ],
   },
   {
@@ -151,10 +153,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2018 - Demcember 2019",
     points: [
-      "Design, develop, and maintain high-quality software solutions.",
-      "Collaborate with cross-functional teams to analyze requirements and deliver scalable, efficient, and maintainable code.",
-      "Participate in code reviews, debugging, and troubleshooting to ensure code quality and performance.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Software Development: Design, develop, and maintain high-quality software solutions for Bon Voyage Travels.",
+      "Collaboration: Work with cross-functional teams to analyze requirements and deliver scalable, efficient, and maintainable code.",
+      "Code Quality: Participate in code reviews, debugging, and troubleshooting to ensure code quality and performance.",
+      "Continuous Learning: Stay updated on industry trends, best practices, and emerging technologies to continuously improve skills and stay ahead in the field.",
+      "Documentation: Document software designs, architecture, and processes to facilitate knowledge sharing and maintainability",
     ],
   },
   {
@@ -187,19 +190,27 @@ const experiences = [
 
 const testimonials = [
   {
+    details: "Associate",
+    name: "Introduction to Cloud Computing",
+    date: "May 21, 2022",
+    image: cou,
+    link: "https://www.credly.com/badges/869f9cc3-2701-4281-b43d-aef9d8de618c/public_url",
+  },
+  {
     name: "AWS Solution Architect",
-    designation: "2024",
-    company: "",
+    details: "Associate",
+    date: "April 04, 2024",
+    link: "https://www.credly.com/badges/c2a162b9-7f5a-48b9-a680-29552702270f/public_url",
     image: Awsc,
   },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
+  {
+    name: "AWS Solution Architect",
+    details: "In progress",
+    date: "soon",
+    link: "",
+    image: sec,
+  },
+
   // {
   //   testimonial:
   //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
